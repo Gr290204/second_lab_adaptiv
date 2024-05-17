@@ -1,0 +1,97 @@
+.navigation{
+    padding-top: 50px;
+
+    @media (max-width: 991px) {
+        padding-top: 14px;
+        margin-bottom: 0px;
+    }
+    
+    .navigation__content{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+    }
+    .navigation__links{
+        @media (max-width: 767px) {
+            display: none;
+        }
+        grid-gap: 51px;
+        align-items: center;
+        display: flex;
+        font-size: 18px;
+        margin-bottom: 0;
+        a{
+            text-decoration: none;
+            color:#3F3A51;
+        }
+    }
+
+    .navigation__menu{
+        
+        display: none;
+        @media (max-width: 767px) {
+            display: flex;
+            align-items: center;
+        }
+        .navigation__menu-links{
+            display: none;
+        }
+        .navigation__menu-links.active{
+            display: flex;
+            flex-direction: column;
+            
+            position: fixed;
+            right: 0%;
+            top: 0%;
+            background: #fff;
+            width: 278px;
+            height: 100%;
+            padding: 12px;
+            z-index: 1;
+            text-align: right;
+
+            a{
+                font-size: 18px;
+                text-decoration: none;
+                color:#3F3A51;
+            }
+            p{
+            font-size: 14px;
+            color: #8F99AC;
+            }
+            .navigation__menu-links-ability{
+                margin-top: 72px;
+                margin-bottom: 22px;
+            }
+            .navigation__menu-adres{
+                margin-top: auto;
+            }
+
+
+        }
+        .navigation__menu-button.active{
+            position: fixed;
+            z-index: 2;
+            right: 5%;
+            
+        }
+
+        .navigation__menu-back{
+            display: none;
+            background: #8F99AC;
+            position: fixed;
+            top:0;
+            right: 0;
+            height: 100%;
+            width: 100%;
+
+            opacity: 50%;
+        }
+        .navigation__menu-back.active{
+            display: block;
+        }
+    }
+
+    margin-bottom: 77px;
+}

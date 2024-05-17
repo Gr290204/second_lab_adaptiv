@@ -1,0 +1,30 @@
+footer{
+    padding-bottom: 40px;
+    padding-top: 40px;
+    .logo__group{
+        @media (max-width: 767px) {
+                grid-gap: 30px;
+                flex-direction: column;
+                text-align: center;
+            }
+        align-items: center;
+        display: flex;
+        gap: 30%;
+        justify-content: space-between;
+        p{
+            color: #8f99ac;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 0%;
+        }
+    }
+    .logo__group:first-child {
+        border-bottom: 1px solid rgba(143, 153, 172, .5);
+        margin-bottom: 25px;
+        padding-bottom: 25px;
+        P{
+            text-align: right;
+        }
+    }
+
+}

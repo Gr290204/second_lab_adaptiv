@@ -1,0 +1,71 @@
+.reviews{
+    background: #dfe1ff;
+    padding: 60px 0;
+    .reviews__intro{
+
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: center;
+
+        h2{
+            margin-bottom: 14px;
+            font-size: 32px;
+            color: #3F3A51;
+            font-weight: bold;
+        }
+        p{
+            color: #3F3A51;
+            line-height: 130%;
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        button{
+            background: #4047e2;
+                    border: 1px solid #4047e2;
+                    color: #fff;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 125%;
+                    padding: 14px;
+                    border-radius: 10px;
+                    width: 180px;
+                    margin-right: 20px;
+                    @media (max-width: 991px) {
+                        width: 100%;
+                        margin-right: 0px;
+                        margin-bottom: 40px;
+                    }
+        }
+    }
+    .review-card{
+        background: #fff;
+        border-radius: 40px;
+        padding: 35px;
+
+        .review__card-teacher{
+            display: inline-grid;
+            grid-auto-flow: column;
+            gap: 16px;
+            .review__card-teacher-name{
+                margin-top: 9px;
+                color: #000;
+            }
+            p{
+                color: #8F99AC;
+                line-height: 150%;
+                margin-bottom: 0px;
+            }
+        }
+    }
+
+    .review__card-text{
+        color: #000;
+        line-height: 150%;
+        font-size: 20px;
+        @media (max-width: 767px) {
+            font-size: 16px;
+        }
+        
+    }
+}

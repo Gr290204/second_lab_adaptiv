@@ -1,0 +1,40 @@
+.class{
+    background: #dfe1ff;
+    margin-bottom: 50px;
+    padding: 80px 0;
+    @media (max-width: 767px) {
+        background: #fff;
+        padding: 0px;
+    }
+    .class__text{
+        padding-right: 40px;
+        @media (max-width: 767px) {
+            padding-right: 0px;
+        }
+        h2{
+            font-size: 32px;
+            font-weight: bold;
+            color: #3F3A51;
+            margin-bottom: 18px;
+        }
+        p{
+            font-size: 18px;
+            color: #3F3A51;
+            line-height: 130%;
+        }
+        .class__text-add{
+            margin-bottom: 1em;
+        }
+    }
+    .class-image{
+
+        border-radius: 10px;
+        margin-top: 7px;
+        margin-left: 50px;
+        width: 100%;
+        @media (max-width: 991px) {
+            margin: 25px auto 0;
+            
+        }
+    }
+}

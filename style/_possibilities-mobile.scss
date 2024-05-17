@@ -1,0 +1,53 @@
+.possibilities-mobile{
+    display: none;
+    @media (max-width: 991px) {
+        display: block;
+    }
+    margin-bottom: 80px;
+    h2{
+        margin-bottom: 25px;
+        text-align: center;
+        font-size: 32px;
+        color: #3F3A51;
+        font-weight: bold;
+    }
+.possibilities__item-wrap{
+    display: flex;
+    justify-content: center;
+}
+    .possibilities__item{
+
+        display: flex;
+        background: #dfe1ff;
+        border-radius: 20px;
+        flex-direction: column;
+        align-items: center;
+        min-height: 320px;
+        min-width: 296px;
+        text-align: center;
+        
+
+        .possibilities__item-img-wrap{
+            margin-top: 48px;
+            margin-bottom: 26px;
+        }
+        h4{
+            color: #3F3A51;
+            font-size: 20px;
+            margin-bottom: 18px;
+        }
+        p{
+            line-height: 150%;
+            color: #3F3A51;
+            font-size: 18px;
+        }
+        
+    }
+    .n2{
+        background: #ffe1ad;
+    }
+    .swiper-pagination{
+        position: relative;
+        margin-top: 16px;
+    }
+}

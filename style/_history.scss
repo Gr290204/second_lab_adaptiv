@@ -1,0 +1,28 @@
+.history{
+    margin-bottom: 80px;
+    img{
+        border-radius: 10px;
+        box-shadow: 0 10px 50px 0 rgba(0, 0, 0, .2);
+        max-width: 100%;
+        @media (max-width: 991px) {
+           margin: 0 auto;
+        }
+    }
+    .history__text{
+        h2{
+            font-size: 32px;
+            font-weight: bold;
+            color: #3F3A51;
+
+            margin-bottom: 30px;
+        }
+        p{
+            line-height: 130%;
+            font-size: 18px;
+        }
+        .history__text-1{
+
+            margin-bottom: 20px;
+        }
+    }
+}
